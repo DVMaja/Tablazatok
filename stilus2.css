@@ -1,0 +1,26 @@
+table {
+    width: 100%;    
+    border-collapse: collapse;
+}
+caption{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+td, th {
+    border: 1px solid rgb(210, 207, 207);
+}
+td {
+    text-align: center;
+}
+.veznev{
+    text-align: left;
+    border-left: none;
+}
+.fosor th{
+    background-color: rgb(176, 196, 222);
+}
+tbody tr:nth-child(even){
+    background-color: rgb(219, 212, 212) ;
+}

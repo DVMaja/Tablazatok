@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+    /*Cella szegélyek közti rés eltüntetése*/
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid gray;
+}
+th {
+    font-variant: small-caps;
+    background-color: rgb(59, 105, 145);
+    color: aliceblue;
+}
+/*MInden második só színezés*/
+tbody tr:nth-child(even){
+    background-color: rgb(79, 178, 145);
+}
+tbody tr:nth-child(odd){
+    color: rgb(173, 67, 84) ;
+}
+.osszevont{
+    background-color: rgb(37, 12, 61);
+}

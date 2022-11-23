@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Táblázatok">
+    <meta name="keywords" content="táblázatok ">
+    <meta name="author" content="Dreilinger Vanessza Maja">
+    <link rel="stylesheet" href="stilus.css">
+    <title>Dreilinger Vanessza Majas</title>
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <h1>Táblázatok</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="tablazat2.html">Tábázat2</a></li>
+                <li><a href="tablazat3.html">TÁblázat3</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <section class="pelda">
+                <p>A táblázat funkciója az adatok rendszerezett megjelenítése.</p>
+                <table>
+                    <caption>Táblázat címe Az első sor </caption>
+                    <!--Ez egy sor-->
+                    <thead>
+                        <tr>
+                            <th>Cella1</th>
+                            <th>Cella2</th>
+                            <th>Cella3</th>
+                            <th>Cella4</th>
+                            <th>Cella5</th>
+                        </tr>
+                    </thead>
+                    <!--Ez a sor vége-->
+                    <tbody>
+                        <tr>
+                            <td>sor2 cella1</td>
+                            <!--Oszlopok összevonása-->
+                            <td rowspan="2" class="osszevont">sor2 cella2 sor3 cella2</td>
+                            <td>sor2 cella3</td>
+                            <td>sor2 cella4</td>
+                            <td>sor2 cella5</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>sor3 cella1</td>
+                            <!--Fontos itt kell törölni a td-t !-->
+                            
+                            <td>sor3 cella3</td>
+                            <td>sor3 cella4</td>
+                            <td>sor3 cella5</td>
+                        </tr>
+                        <tr>
+                            <td>sor4 cella1</td>
+                            <td>sor4 cella2</td>
+                            <td>sor4 cella3</td>
+                            <!--Egymás melleti cellák összevonása colspan-->
+                            <td colspan="2" class="osszevont">sor4 cella4
+                                sor4 cella5</td>
+                        </tr>
+                        <tr>
+                            <td>sor5 cella1</td>
+                            <td>sor5 cella2</td>
+                            <td>sor5 cella3</td>
+                            <td>sor5 cella4</td>
+                            <td>sor5 cella5</td>
+                        </tr>
+                        <tr>
+                            <td>sor6 cella1</td>
+                            <td>sor6 cella2</td>
+                            <td>sor6 cella3</td>
+                            <td>sor6 cella4</td>
+                            <td>sor6 cella5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+
+        <footer></footer>
+    </body>
+
+</body>
+
+</html>
