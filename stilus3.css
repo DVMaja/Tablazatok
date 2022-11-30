@@ -27,5 +27,5 @@ tbody tr:nth-child(odd) td:nth-child(odd){
 .babu{
     text-align: center;
     font-size: calc(5vh);
-    color: aliceblue;
+    
 }
